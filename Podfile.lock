@@ -1,0 +1,54 @@
+PODS:
+  - BulletinBoard (4.1.0)
+  - ReactiveDataDisplayManager (6.0.0)
+  - SurfUtils/CommonButton (10.0.4)
+  - SurfUtils/KeyboardPresentable (10.0.4)
+  - SurfUtils/LocalStorage (10.0.4)
+  - SurfUtils/StringAttributes (10.0.4)
+  - SurfUtils/VibrationFeedbackManager (10.0.4)
+  - SwiftGen (6.1.0)
+  - SwiftLint (0.39.1)
+
+DEPENDENCIES:
+  - BulletinBoard
+  - ReactiveDataDisplayManager (from `https://github.com/alexfilimon/ReactiveDataDisplayManager`, commit `bcef2567ff9dcf8f35e07438dfa09120c766bd90`)
+  - SurfUtils/CommonButton (from `https://github.com/surfstudio/iOS-Utils.git`, tag `10.0.4`)
+  - SurfUtils/KeyboardPresentable (from `https://github.com/surfstudio/iOS-Utils.git`, tag `10.0.4`)
+  - SurfUtils/LocalStorage (from `https://github.com/surfstudio/iOS-Utils.git`, tag `10.0.4`)
+  - SurfUtils/StringAttributes (from `https://github.com/surfstudio/iOS-Utils.git`, tag `10.0.4`)
+  - SurfUtils/VibrationFeedbackManager (from `https://github.com/surfstudio/iOS-Utils.git`, tag `10.0.4`)
+  - SwiftGen
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - BulletinBoard
+    - SwiftGen
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  ReactiveDataDisplayManager:
+    :commit: bcef2567ff9dcf8f35e07438dfa09120c766bd90
+    :git: https://github.com/alexfilimon/ReactiveDataDisplayManager
+  SurfUtils:
+    :git: https://github.com/surfstudio/iOS-Utils.git
+    :tag: 10.0.4
+
+CHECKOUT OPTIONS:
+  ReactiveDataDisplayManager:
+    :commit: bcef2567ff9dcf8f35e07438dfa09120c766bd90
+    :git: https://github.com/alexfilimon/ReactiveDataDisplayManager
+  SurfUtils:
+    :git: https://github.com/surfstudio/iOS-Utils.git
+    :tag: 10.0.4
+
+SPEC CHECKSUMS:
+  BulletinBoard: c774340545b5cfd05a96a89f63b105ecc95c86f9
+  ReactiveDataDisplayManager: 53c14bb0e0ccef2047a4816651ef904500cf83da
+  SurfUtils: 8ffd47c49793328307e2adfba05d3fb080a9f91e
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+  SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
+
+PODFILE CHECKSUM: 0a898bb5598aa9ec14a42d315ba318aa2a84d46b
+
+COCOAPODS: 1.8.1

@@ -1,0 +1,7 @@
+xcassets:
+  inputs:
+    - ProductsList/Resources/Images/Assets.xcassets
+    - ProductsList/Resources/Colors/ColorsAssets.xcassets
+  outputs:
+    templateName: swift4
+    output: ProductsList/Resources/Images/Assets.swift
