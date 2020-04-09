@@ -51,4 +51,3 @@ open class DesignableView: UIView {
     }
 
 }
-

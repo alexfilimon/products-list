@@ -10,4 +10,6 @@ import Foundation
 
 struct ProductsListItemTableCellModel {
     let title: String
+    let quantity: String?
+    var isChecked: Bool
 }

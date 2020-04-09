@@ -44,4 +44,3 @@ extension ModuleTransitionable where Self: UIViewController {
         push(module: module, animated: animated)
     }
 }
-

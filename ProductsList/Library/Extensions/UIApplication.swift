@@ -42,4 +42,12 @@ extension UIApplication {
         UIApplication.shared.open(url)
     }
 
+    static var isDarkTheme: Bool {
+        if #available(iOS 13, *) {
+            return UITraitCollection.current.userInterfaceStyle == .dark
+        } else {
+            return false
+        }
+    }
+
 }

@@ -11,17 +11,20 @@ import UIKit
 extension UIColor {
 
     static func rgb(red: Int, green: Int, blue: Int, alpha: Float = 1) -> UIColor {
-        return UIColor(red: CGFloat(red) / 255, green: CGFloat(green) / 255, blue: CGFloat(blue) / 255, alpha: CGFloat(alpha))
+        return UIColor(red: CGFloat(red) / 255,
+                       green: CGFloat(green) / 255,
+                       blue: CGFloat(blue) / 255,
+                       alpha: CGFloat(alpha))
     }
 
     static func hex(_ hex: String) -> UIColor {
         var cString: String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
 
-        if (cString.hasPrefix("#")) {
+        if cString.hasPrefix("#") {
             cString.remove(at: cString.startIndex)
         }
 
-        if ((cString.count) != 6) {
+        if (cString.count) != 6 {
             return UIColor.gray
         }
 
@@ -37,4 +40,3 @@ extension UIColor {
     }
 
 }
-

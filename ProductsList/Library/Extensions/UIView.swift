@@ -41,14 +41,14 @@ extension UIView {
                 contentView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
                 contentView.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor),
                 contentView.trailingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.trailingAnchor)
-                ])
+            ])
         } else {
             NSLayoutConstraint.activate([
                 contentView.topAnchor.constraint(equalTo: self.topAnchor),
                 contentView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
                 contentView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
                 contentView.trailingAnchor.constraint(equalTo: self.trailingAnchor)
-                ])
+            ])
         }
         return contentView
     }

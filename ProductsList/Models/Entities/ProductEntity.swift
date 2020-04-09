@@ -10,10 +10,10 @@ import Foundation
 
 struct ProductEntity: Codable {
     let id: String
-    let name: String
-    let quantity: String?
+    var name: String
+    var quantity: String?
     let dateCreated: Date
-    let isBought: Bool
-    let dateChanged: Date
-    let position: Int
+    var isBought: Bool
+    var dateChanged: Date
+    var position: Int
 }
